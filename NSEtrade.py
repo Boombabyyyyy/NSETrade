@@ -9,7 +9,7 @@ def get_current_price(scrip):
         q = nse.get_quote(scrip)['lastPrice']
         print(q)
 
-# Driver code
+# Driver code with error handling
 print("Please enter the unique stock scrip for the company you're looking to trade:")
 stock = input()
 while True:
